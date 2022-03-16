@@ -1,7 +1,6 @@
 body {
-  margin: 0px;
   width: 320px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   margin: 50px;
 }
 
@@ -13,7 +12,7 @@ body {
 
 .pic1 {
   width: 111px;
-  height: 74px; 
+  height: 74px;
 }
 
 .menu {
@@ -31,7 +30,7 @@ body {
 }
 
 h1 {
-  font-family: Playfair Display;
+  font-family:'Playfair Display';
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -39,7 +38,7 @@ h1 {
   letter-spacing: 0em;
   text-align: left;
   margin: 30px 16px 20px 16px;
-  color:#1A2236;
+  color: #1a2236;
 }
 
 p {
@@ -49,17 +48,17 @@ p {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #1A2236;  
-  margin: 0px 16px;
+  color: #1a2236;
+  margin: 0 16px;
   height: 126px;
 }
 
 button {
   margin: 20px 16px 32.31px 16px;
   height: 50px;
-  background: #1A2236;
+  background: #1a2236;
   color: white;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
