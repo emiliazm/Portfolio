@@ -30,19 +30,18 @@ body {
 }
 
 h1 {
-  font-family:'Playfair Display';
+  font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: 50px;
-  letter-spacing: 0em;
   text-align: left;
   margin: 30px 16px 20px 16px;
   color: #1a2236;
 }
 
 p {
-  font-family: 'Poppins';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -64,7 +63,6 @@ button {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: center;
 }
 
 .pic2 {
