@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.navbar {
+header {
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 320px;
 }
 
 h1 {
