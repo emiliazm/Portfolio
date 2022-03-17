@@ -136,5 +136,9 @@ li {
   line-height: 24px;
   text-align: center;
   margin: 0 122px 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
   
 }
