@@ -76,18 +76,12 @@ button {
 .projects {
   background: white;
   display: grid;
-  row-gap: 50px;
 }
 
 .work {
   display: flex;
   flex-direction: column;
 }
-
-.imgArticle {
-
-}
-
 
 .info {
   background: #1a2236;
@@ -111,10 +105,10 @@ h2 {
 
 .box {
   list-style-type: none;
-  display: flex;
-  gap: 20px;
   margin: 0 50px 20px 20px; 
-  padding: 0
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 li {
@@ -122,7 +116,7 @@ li {
   color: #1a2236;
   font-weight: 300;
   font-style: normal;
-  font-size: 10.33px;
+  font-size: 11.3334px;
   line-height: 8.27px;
   padding: 6px 10px 6px 10px;
 }
