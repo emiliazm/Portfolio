@@ -45,10 +45,10 @@ h1 {
 }
 
 p {
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
@@ -73,7 +73,7 @@ button {
   height: 160px;
 }
 
-/*work section*/
+/* work section */
 .projects {
   background: white;
   display: grid;
@@ -87,11 +87,12 @@ button {
 .info {
   background: #1a2236;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+
 }
 
 h2 {
-  color: #ffffff;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
   width: 264px;
   height: 16px;
@@ -101,7 +102,7 @@ h2 {
   font-weight: 300;
   font-size: 20px;
   line-height: 80%;
-  
+
 }
 
 .box {
@@ -115,15 +116,16 @@ h2 {
 .work-list {
   background: #98dede;
   color: #1a2236;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 11.3334px;
+  font-size: 10.3334px;
   line-height: 8.27px;
   padding: 6px 10px 6px 10px;
 }
 
 .see {
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -136,11 +138,10 @@ h2 {
   align-items: center;
 }
 
-/*about section*/
+/* about section */
 
 .about {
   background-color: white;
   display: flex;
   flex-direction: column;
 }
-
