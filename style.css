@@ -1,7 +1,6 @@
 body {
-  width: 320px;
   background-color: #e5e5e5;
-  margin: 50px;
+  margin: 0;
 }
 
 .navbar {
@@ -44,11 +43,11 @@ p {
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
-  margin: 0 16px;
+  margin: 0 16px 20px 16px;
   height: 126px;
 }
 
