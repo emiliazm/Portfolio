@@ -72,3 +72,11 @@ button {
   width: 320px;
   height: 160px;
 }
+
+.projects {
+  background: #1a2236;
+  display: grid;
+  row-gap: 50px;
+
+}
+
