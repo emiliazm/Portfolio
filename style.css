@@ -5,6 +5,7 @@ body {
 
 header {
   background-color: white;
+  height: 74px;
   display: flex;
   justify-content: space-between;
 }
@@ -25,8 +26,11 @@ header {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  width: 320px;
+  height: 558.31px;
+  background-image: url(image_2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 320px 160px;
 }
 
 h1 {
