@@ -73,6 +73,7 @@ button {
   height: 160px;
 }
 
+/*work section*/
 .projects {
   background: white;
   display: grid;
@@ -133,6 +134,13 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-  
+}
+
+/*about section*/
+
+.about {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
 }
