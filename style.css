@@ -1,0 +1,70 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic1 {
+  width: 111px;
+  height: 74px;
+}
+
+.menu {
+  width: 20px;
+  height: 14px;
+  margin-top: 19px;
+  margin-right: 19px;
+}
+
+.headline {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 320px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  margin: 30px 16px 20px 16px;
+  color: #1a2236;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin: 0 16px 20px 16px;
+  height: 126px;
+}
+
+button {
+  margin: 20px 16px 32.31px 16px;
+  height: 50px;
+  background: #1a2236;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.pic2 {
+  width: 320px;
+  height: 160px;
+}
