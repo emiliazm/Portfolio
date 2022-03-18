@@ -144,4 +144,76 @@ h2 {
   background-color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin: 50px 0px 21px 50px;
+}
+
+.languages {
+  background-color: #1c528a;
+  width: 289px;
+  height: 289px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.hash {
+  width: 102px;
+  height: 102px;
+  align-self: flex-end;
+  margin-top: ;
+}
+
+.framework {
+  background-color: #e2505c;
+  width: 289px;
+  height: 289px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.sq {
+  width: 102px;
+  height: 102px;
+  align-self: flex-end;
+}
+
+.skills {
+  background-color: #febf52;
+  width: 289px;
+  height: 289px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.bulb {
+  width: 102px;
+  height: 102px;
+  align-self: flex-end;
+}
+
+.lang-list {
+  color: #fff;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 27px;
+  margin-left: 50px;
+  padding: 0;
 }
