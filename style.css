@@ -5,6 +5,7 @@ body {
 
 header {
   background-color: white;
+  height: 74px;
   display: flex;
   justify-content: space-between;
 }
@@ -25,12 +26,15 @@ header {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  width: 320px;
+  height: 558.31px;
+  background-image: url(image_2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 320px 160px;
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Playfair Display', serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -41,10 +45,10 @@ h1 {
 }
 
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
@@ -57,7 +61,7 @@ button {
   height: 50px;
   background: #1a2236;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -67,4 +71,159 @@ button {
 .pic2 {
   width: 320px;
   height: 160px;
+}
+
+/* work section */
+.projects {
+  background: white;
+  display: grid;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  background: #1a2236;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 264px;
+  height: 16px;
+  margin: 20px 36px 16px 20px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+}
+
+.box {
+  list-style-type: none;
+  margin: 0 50px 20px 20px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-list {
+  background: #98dede;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10.3334px;
+  line-height: 8.27px;
+  padding: 6px 10px 6px 10px;
+}
+
+.see {
+  border: 1px solid #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 122px 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+}
+
+/* about section */
+
+.about {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0 24px 16px;
+  width: 288px;
+  gap: 16px;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin: 50px 0 21px 50px;
+}
+
+.languages {
+  background-color: #1c528a;
+  width: 289px;
+  height: 289px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.hash {
+  width: 102px;
+  height: 102px;
+  align-self: flex-end;
+  position: relative;
+  transform: translate(0, -55px);
+}
+
+.framework {
+  background-color: #e2505c;
+  width: 289px;
+  height: 289px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.sq {
+  width: 102px;
+  height: 102px;
+  align-self: flex-end;
+  position: relative;
+  transform: translate(0, -82px);
+}
+
+.skills {
+  background-color: #febf52;
+  width: 289px;
+  height: 289px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.bulb {
+  width: 102px;
+  height: 102px;
+  align-self: flex-end;
+  position: relative;
+  transform: translate(0, -55px);
+}
+
+.lang-list {
+  color: #fff;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 27px;
+  margin-left: 50px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
