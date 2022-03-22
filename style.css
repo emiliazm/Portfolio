@@ -244,3 +244,11 @@ a {
   text-decoration: none;
 }
 
+/* Contact section */
+.contact {
+  display: flex;
+}
+
+label::after {
+  position: absolute;
+}
