@@ -245,10 +245,43 @@ a {
 }
 
 /* Contact section */
+
+input[type="text"]::placeholder {
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  width: 73px;
+  height: 21px;
+}
+
 .contact {
   display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 1000px;
+  background-color: #f9f9fa;
+}
+
+.contact .form-name {
+  display: block;
+  width: 288px;
+  height: 52px;
+  box-sizing: border-box;
+}
+
+label {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+
 }
 
 label::after {
   position: absolute;
+  content: ' ' attr(data-domain);
+  top: 4px;
+  left: 15px;
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+
+
 }
