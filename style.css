@@ -423,3 +423,52 @@ footer h4 {
 .see:hover img:first-child {
   display: none;
 }
+
+/* Media Query */
+@media screen and (min-width: 768px) {
+  .pic1 {
+    display: none;
+  }
+
+  h1 {
+    font-size: 110px;
+    width: 520px;
+    margin: 192px auto 60px 160px;
+  }
+
+  .headline {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-image: url(./images/big-background.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 702px 877px;
+    
+  }
+
+  .presentation {
+    width: 484px;
+    margin: 60px auto 59px 160px;
+  }
+
+  .start {
+    width: 254px;
+    height: 70px;
+    margin: 59px 0 188.72px 160px;
+  }
+
+  .dots {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    transform: translate(563px, 698px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dots {
+    display: none;
+  }
+  
+}
