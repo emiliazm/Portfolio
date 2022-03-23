@@ -1,3 +1,5 @@
+/* start section */
+
 body {
   background-color: #e5e5e5;
   margin: 0;
@@ -29,28 +31,35 @@ header {
 }
 
 .headline {
-  background-color: white;
   display: flex;
   flex-direction: column;
-  height: 558.31px;
+  background-color: white;
+  padding: 0 16px 0 16px;
+  height: 572.31px;
   background-image: url(./images/image_2.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 320px 160px;
+  background-size: 100%;
 }
 
-h1 {
+h1,
+.h1projects {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: 50px;
   text-align: left;
-  margin: 30px 16px 20px 16px;
+  margin: 30px 0 20px 0;
   color: #1a2236;
 }
 
-p {
+.h1projects {
+  margin: 39.31px 16px 32px 16px;
+}
+
+p,
+.get-ph {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -58,13 +67,17 @@ p {
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
-  margin: 0 16px 20px 16px;
-  height: 126px;
+  margin: 0 0 20px 0;
+  height: auto;
+}
+
+.get-ph {
+  margin-top: 20px;
 }
 
 .start {
-  margin: 20px 16px 32.31px 16px;
-  width: 288px;
+  margin: 20px 0 32.31px 0;
+  width: 100%;
   height: 50px;
   background: #1a2236;
   color: white;
@@ -80,21 +93,8 @@ p {
   height: 160px;
 }
 
-.start:hover {
-  background-color: #fff;
-  transition: 0.7ms;
-  color: #1a2236;
-  border: solid 2px #1a2236;
-}
-
-.start:active {
-  background-color: #fff;
-  transition: 0.7ms;
-  color: #1a2236;
-  border: solid #1a2236;
-}
-
 /* work section */
+
 .projects {
   background: white;
   display: grid;
@@ -168,7 +168,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  padding-bottom: 50px;
+  padding: 0 16px 50px 16px;
 }
 
 h3 {
@@ -184,7 +184,6 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  width: 288px;
   height: 50px;
   background: #1a2236;
   color: white;
@@ -193,16 +192,30 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  margin: 32px 16px 24px 16px;
+  margin: 32px 0 24px 0;
+  width: 100%;
 }
 
-.languages {
-  background-color: #1c528a;
+.languages,
+.framework,
+.skills {
   width: 289px;
   height: 289px;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
+}
+
+.languages {
+  background-color: #1c528a;
+}
+
+.skills {
+  background-color: #febf52;
+}
+
+.framework {
+  background-color: #e2505c;
 }
 
 .hash {
@@ -213,30 +226,12 @@ h3 {
   transform: translate(0, -55px);
 }
 
-.framework {
-  background-color: #e2505c;
-  width: 289px;
-  height: 289px;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-
 .sq {
   width: 102px;
   height: 102px;
   align-self: flex-end;
   position: relative;
   transform: translate(0, -82px);
-}
-
-.skills {
-  background-color: #febf52;
-  width: 289px;
-  height: 289px;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: column;
 }
 
 .bulb {
@@ -254,10 +249,6 @@ h3 {
   line-height: 27px;
   margin-left: 50px;
   padding: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* Contact form section */
@@ -304,12 +295,6 @@ textarea {
   gap: 8px;
 }
 
-.get-ph {
-  width: 100%;
-  height: 63px;
-  margin: 20px auto 0 auto;
-}
-
 .get-st {
   margin: 0;
 }
@@ -326,25 +311,12 @@ textarea {
   margin: 12px 0 0 0;
 }
 
-.getBut:hover {
-  background-color: #fff;
-  transition: 0.7ms;
-  color: #1a2236;
-  border: solid 2px #1a2236;
-}
-
-.getBut:active {
-  background-color: #fff;
-  transition: 0.7ms;
-  color: #1a2236;
-  border: solid #1a2236;
-}
-
 /* footer */
+
 footer {
-  background-color: #1a2236;
   display: flex;
   flex-direction: column;
+  background-color: #1a2236;
   margin-top: 0;
 }
 
@@ -372,14 +344,14 @@ footer h4 {
 
 /* hovers and active */
 
-.cvBut:hover {
+.start:hover {
   background-color: #fff;
   transition: 0.7ms;
   color: #1a2236;
   border: solid 2px #1a2236;
 }
 
-.cvBut:active {
+.start:active {
   background-color: #fff;
   transition: 0.7ms;
   color: #1a2236;
@@ -398,6 +370,34 @@ footer h4 {
   transition: 0.7ms;
   color: #fff;
   border: solid #fff;
+}
+
+.cvBut:hover {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid 2px #1a2236;
+}
+
+.cvBut:active {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid #1a2236;
+}
+
+.getBut:hover {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid 2px #1a2236;
+}
+
+.getBut:active {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid #1a2236;
 }
 
 .cvBut img:last-child {
