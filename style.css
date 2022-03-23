@@ -269,6 +269,20 @@ a {
   text-decoration: none;
 }
 
+.cvBut:hover {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid 2px #1a2236;
+}
+
+.cvBut:active {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid #1a2236;
+}
+
 /* Contact section */
 
 .contact {
