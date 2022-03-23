@@ -27,7 +27,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 558.31px;
-  background-image: url(image_2.png);
+  background-image: url(./images/image_2.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 320px 160px;
@@ -56,8 +56,9 @@ p {
   height: 126px;
 }
 
-button {
+.start {
   margin: 20px 16px 32.31px 16px;
+  width: 288px;
   height: 50px;
   background: #1a2236;
   color: white;
@@ -71,6 +72,20 @@ button {
 .pic2 {
   width: 320px;
   height: 160px;
+}
+
+.start:hover {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid 2px #1a2236;
+}
+
+.start:active {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid #1a2236;
 }
 
 /* work section */
@@ -126,6 +141,7 @@ h2 {
   background-color: #fff;
   border: 1px solid #1a2236;
   color: #1a2236;
+  height: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -143,14 +159,14 @@ h2 {
   background-color: #1a2236;
   transition: 0.7ms;
   color: #fff;
-  border: solid #fff;
+  border: solid 2px #fff;
 }
 
 .see:active {
   background-color: #1a2236;
   transition: 0.7ms;
   color: #fff;
-  border: solid 2px #fff;
+  border: solid #fff;
 }
 
 /* about section */
@@ -164,21 +180,29 @@ h2 {
   padding-bottom:50px;
 }
 
-.cv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 32px 0 24px 16px;
-  width: 288px;
-  gap: 16px;
-}
-
 h3 {
   font-weight: 800;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
   margin: 50px 0 21px 50px;
+}
+
+.cvBut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 288px;
+  height: 50px;
+  background: #1a2236;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 32px 16px 24px 16px;
 }
 
 .languages {
@@ -293,7 +317,6 @@ input[type="email"]::placeholder {
   box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid #dfdfe0;
-  margin-top: 8px;
 }
 
 label {
@@ -315,7 +338,6 @@ label::after {
 
 .text-area {
   font-family: 'Poppins', sans-serif;
-  margin-top: 8px;
   color: #7d7c84;
   width: 282px;
   height: 112px;
@@ -331,6 +353,10 @@ label::after {
 .form {
   margin: 12px 14px 60px 18px;
   width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 8px;
 }
 
 .get-ph {
@@ -338,9 +364,31 @@ label::after {
   height: 63px;
 }
 
-.form-button {
+.getBut {
   width: 288px;
-  margin: 20px 0 0 0;
+  height: 50px;
+  background: #1a2236;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 12px 0 0 0;
+}
+
+.getBut:hover {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid 2px #1a2236;
+}
+
+.getBut:active {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid #1a2236;
 }
 
 /* footer */
