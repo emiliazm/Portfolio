@@ -160,30 +160,6 @@ h2 {
   gap: 12px;
 }
 
-.see:hover {
-  background-color: #1a2236;
-  transition: 0.7ms;
-  color: #fff;
-  border: solid 2px #fff;
-}
-
-.see:active {
-  background-color: #1a2236;
-  transition: 0.7ms;
-  color: #fff;
-  border: solid #fff;
-}
-
-.see img:last-child {
-  display: none;  
-}
-.see:hover img:last-child {
-  display: block;  
-}
-.see:hover img:first-child {
-  display: none;  
-}
-
 /* about section */
 
 .about {
@@ -282,30 +258,6 @@ h3 {
 
 a {
   text-decoration: none;
-}
-
-.cvBut:hover {
-  background-color: #fff;
-  transition: 0.7ms;
-  color: #1a2236;
-  border: solid 2px #1a2236;
-}
-
-.cvBut:active {
-  background-color: #fff;
-  transition: 0.7ms;
-  color: #1a2236;
-  border: solid #1a2236;
-}
-
-.cvBut img:last-child {
-  display: none;  
-}
-.cvBut:hover img:last-child {
-  display: block;  
-}
-.cvBut:hover img:first-child {
-  display: none;  
 }
 
 /* Contact form section */
@@ -416,4 +368,58 @@ footer h4 {
   justify-content: space-between;
   margin: 0 20px 40px 19px;
   padding-left: 0;
+}
+
+/* hovers and active */
+
+.cvBut:hover {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid 2px #1a2236;
+}
+
+.cvBut:active {
+  background-color: #fff;
+  transition: 0.7ms;
+  color: #1a2236;
+  border: solid #1a2236;
+}
+
+.see:hover {
+  background-color: #1a2236;
+  transition: 0.7ms;
+  color: #fff;
+  border: solid 2px #fff;
+}
+
+.see:active {
+  background-color: #1a2236;
+  transition: 0.7ms;
+  color: #fff;
+  border: solid #fff;
+}
+
+.cvBut img:last-child {
+  display: none;
+}
+
+.see img:last-child {
+  display: none;
+}
+
+.cvBut:hover img:last-child {
+  display: block;
+}
+
+.see:hover img:last-child {
+  display: block;
+}
+
+.cvBut:hover img:first-child {
+  display: none;
+}
+
+.see:hover img:first-child {
+  display: none;
 }
