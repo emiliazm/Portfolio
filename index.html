@@ -39,7 +39,7 @@
                     <li class="work-list">Ruby on Rails</li>
                     <li class="work-list">JavaScript</li>      
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"></button>
+                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
             </article>
         </article>
 
@@ -52,7 +52,7 @@
                     <li class="work-list">Ruby on Rails</li>
                     <li class="work-list">JavaScript</li>      
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"> </button> 
+                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button> 
             </article>      
         </article>
 
@@ -65,7 +65,7 @@
                     <li class="work-list">Ruby on Rails</li>
                     <li class="work-list">JavaScript</li>      
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"></button>
+                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
             </article>     
         </article>
 
@@ -78,7 +78,7 @@
                     <li class="work-list">Ruby on Rails</li>
                     <li class="work-list">JavaScript</li>      
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"></button>
+                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
             </article>     
         </article>
 
@@ -91,7 +91,7 @@
                     <li class="work-list">Ruby on Rails</li>
                     <li class="work-list">JavaScript</li>      
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"></button>
+                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
             </article>     
         </article>
 
@@ -104,17 +104,16 @@
                     <li class="work-list">Ruby on Rails</li>
                     <li class="work-list">J vaScript</li>      
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"></button>
+                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
             </article>     
         </article>
-
     </section>
 
     <section class="about">
         <div class="text">
             <h1 class="h1about">About</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
-            <button class="cvBut" type="button">Get my CV <img src="./images/download.png" alt="Download CV"></button>
+            <button class="cvBut" type="button">Get my CV <img src="./images/download.png" alt="Download CV"><img src="./images/download-blue.png" alt="Download CV"></button>
         </div>
         <article class="languages">
             <h3>Languages</h3>
@@ -149,29 +148,35 @@
             </ul>
             <img class="bulb" src="./images/skills.png" alt="">
         </article>
-
     </section>
 
 
     <section class="contact">
-        <img class="pic1" src="./images/image_1.png" alt="logo">
-        <h1 class="get-st" >Get Started</h1>
+        <img class="pic11" src="./images/image_1.png" alt="logo">
+        <h1 class="get-st">Get Started</h1>
         <p class="get-ph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
         <form class="form" action="https://formspree.io/f/xrgjlwgg" method="post">
-            <label class="label-name" data-domain="Your Name">
-                <input class="form-name" type="text" maxlength="30" placeholder="Anastasiia" required>
-            </label>
-            <label class="label-email" data-domain="Your email">
-                <input class="form-email" type="email" placeholder="anastasia@domain.com" required>
-            </label>
+
+            <fieldset class="contactfield">
+                <label class="label-name"> Your name
+                    <input type="text" maxlength="30" placeholder="Anastasiia" required>
+                </label>
+            </fieldset>
+
             
-            <textarea class="text-area" name="text area" maxlength="500" placeholder="Enter your message here..." required></textarea>
+            <fieldset class="contactfield">
+                <label class="label-email"> Your email
+                    <input type="email" placeholder="anastasia@domain.com" required>
+                </label>                
+            </fieldset>
             
+            <fieldset class="contactfield">
+                <textarea name="text area" maxlength="500" placeholder="Enter your message here..." required></textarea>
+            </fieldset>
+
             <button class="getBut" type="submit">Start Colaboration</button>
-
         </form>
-
     </section>
 
     <footer class="foot">
@@ -185,7 +190,6 @@
             <li><img src="./images/vector.png" alt=""></li>
         </ul>
     </footer>
-
 
 </body>
 </html>

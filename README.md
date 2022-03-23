@@ -20,23 +20,11 @@ The objectives of this project is:
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Emilia Zambrano**
 
 - GitHub: [@emiliazm](https://github.com/emiliazm)
 - Twitter: [@emilia_zm](https://twitter.com/emilia_zm)

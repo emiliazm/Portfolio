@@ -10,9 +10,15 @@ header {
   justify-content: space-between;
 }
 
-.pic1 {
+.pic1,
+.pic11 {
   width: 111px;
   height: 74px;
+}
+
+.pic11 {
+  margin-left: -36px;
+  margin-bottom: 31.98px;
 }
 
 .menu {
@@ -150,7 +156,6 @@ h2 {
   text-align: center;
   margin: 0 122px 20px 20px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   gap: 12px;
 }
@@ -167,6 +172,16 @@ h2 {
   transition: 0.7ms;
   color: #fff;
   border: solid #fff;
+}
+
+.see img:last-child {
+  display: none;  
+}
+.see:hover img:last-child {
+  display: block;  
+}
+.see:hover img:first-child {
+  display: none;  
 }
 
 /* about section */
@@ -283,89 +298,54 @@ a {
   border: solid #1a2236;
 }
 
+.cvBut img:last-child {
+  display: none;  
+}
+.cvBut:hover img:last-child {
+  display: block;  
+}
+.cvBut:hover img:first-child {
+  display: none;  
+}
+
 /* Contact section */
 
 .contact {
-  display: flex;
   background-color: #f9f9fa;
+  display: flex;
   flex-direction: column;
+  padding: 0 14px 0 18px;
 }
 
-input[type="text"]::placeholder {
-  padding-left: 16px;
-  font-family: 'Poppins', sans-serif;
-  width: 73px;
-  height: 21px;
-  color: #1a2236;
-  font-weight: 400;
-  font-size: 14px;
-  position: relative;
-  top: 6px;
-}
-
-input[type="email"]::placeholder {
-  padding-left: 16px;
-  font-family: 'Poppins', sans-serif;
-  width: 288px;
-  height: 21px;
-  color: #1a2236;
-  font-weight: 400;
-  font-size: 14px;
-  position: relative;
-  top: 6px;
-}
-
-.contact .form-name {
-  display: block;
-  width: 288px;
-  height: 52px;
-  box-sizing: border-box;
-  border-radius: 4px;
+.contactfield {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dfdfe0;
+  background-color: #fff;
+  border-radius: 4px;
 }
 
-.contact .form-email {
-  display: block;
-  width: 288px;
-  height: 52px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  border: 1px solid #dfdfe0;
+input,
+textarea {
+  border: 0;
+  width: 100%;
+  margin-top: 4px;
+  font-family: 'Poppins', sans-serif;
 }
 
 label {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-}
-
-label::after {
-  position: absolute;
-  content: ' ' attr(data-domain);
-  top: 4px;
-  left: 20px;
   font-size: 10px;
   font-family: 'Poppins', sans-serif;
   color: #7d7c84;
 }
 
-.text-area {
-  font-family: 'Poppins', sans-serif;
-  color: #7d7c84;
-  width: 282px;
+textarea {
   height: 112px;
-  font-size: 14px;
-  border: 1px solid #dfdfe0;
-}
-
-.text-area::-webkit-input-placeholder {
-  padding-top: 10px;
-  padding-left: 16px;
 }
 
 .form {
-  margin: 12px 14px 60px 18px;
-  width: 288px;
+  margin: 32px auto 60px auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -373,12 +353,16 @@ label::after {
 }
 
 .get-ph {
-  width: 288px;
+  width: 100%;
   height: 63px;
+  margin: 20px auto 0 auto;
+}
+
+.get-st {
+  margin: 0;
 }
 
 .getBut {
-  width: 288px;
   height: 50px;
   background: #1a2236;
   color: white;
