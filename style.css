@@ -608,6 +608,14 @@ footer h4 {
 .contact {
   display: flex;
   align-items: center;
+  padding: 0;
+  background-image:
+  url(./images/geometry-contacttop.png),
+  url(./images/geometry-contac-bottom.png);
+  background-position-x: left, right;
+  background-position-y: top, bottom;
+  background-size: auto auto;
+  background-repeat: no-repeat no-repeat;
 }
 
 .pic11{
@@ -629,8 +637,9 @@ footer h4 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-between;
+  gap: 34px;
   width: 542px;
+  
 }
 
 .textarea {
@@ -642,6 +651,13 @@ footer h4 {
   height: 70px;
   margin: 40px 144px 132px 144px;
 }
+
+/*.label {
+  
+}*/
+
+/* footer section */
+
 
 @media screen and (max-width: 768px) {
   .dots {
