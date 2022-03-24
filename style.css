@@ -604,7 +604,44 @@ footer h4 {
   width: 254px;
 }
 
+/* contact section */
+.contact {
+  display: flex;
+  align-items: center;
+}
 
+.pic11{
+  display: none;
+}
+
+.get-st {
+  width: 560px;
+  margin-top: 168px;
+  margin-bottom: 40px;
+}
+
+.get-ph {
+  width: 542px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  width: 542px;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.getBut {
+  width: 254px;
+  height: 70px;
+  margin: 40px 144px 132px 144px;
+}
 
 @media screen and (max-width: 768px) {
   .dots {
