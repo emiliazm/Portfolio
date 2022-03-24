@@ -48,7 +48,6 @@ h1,
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
-  line-height: 50px;
   text-align: left;
   margin: 30px 0 20px 0;
   color: #1a2236;
@@ -428,7 +427,7 @@ footer h4 {
 @media screen and (min-width: 768px) {
 
   body {
-    max-width: 1440px;
+    max-width: 1440px; 
   }
 
   /* header */
@@ -468,19 +467,31 @@ footer h4 {
 
   h1 {
     font-size: 110px;
+    width: 400px;
+    padding: 0;
+    line-height: 100%;
+    margin: 192px auto 60px 160px;
+    overflow-wrap: normal;
+  }
+
+  .h1porjects {
+    font-size: 110px;
     width: 520px;
     padding: 0;
     margin: 192px auto 60px 160px;
     overflow-wrap: normal;
-   
   }
 
   .headline {
     width: 100%;
     height: auto;
     padding: 0;
-    background: url(./images/image_dots.png) bottom center no-repeat, url(./images/big-background.png) top right no-repeat;
-    background-size: auto, 702px 877px;
+    background-image:
+    url(./images/image_dots.png),
+    url(./images/big-background.png);
+    background-position-x: 563px, right;
+    background-position-y: bottom, bottom;
+    background-size: auto, auto;
   }
 
   .presentation {
@@ -502,5 +513,9 @@ footer h4 {
   
   .nav-list {
     display: none;
+  }
+
+  h1 {
+    line-height: 50px;
   }
 }
