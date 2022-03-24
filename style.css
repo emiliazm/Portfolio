@@ -657,7 +657,23 @@ footer h4 {
 }*/
 
 /* footer section */
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 123px;
+}
 
+.foot-title {
+  margin: 0;
+}
+
+.foot-list {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+}
 
 @media screen and (max-width: 768px) {
   .dots {
