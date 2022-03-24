@@ -582,13 +582,21 @@ footer h4 {
   max-width: 1440px;
   padding: 216px 160px 158px 160px;
   gap: 0;
+  align-items: flex-start;
 }
 
 .colorboxs {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 0;
-  width: 578px;
+  width: 6000px;
+  background-image:
+  url(./images/image_dots_with_teal.png);
+  background-position-x: 356.88px;
+  background-position-y: bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .h1about {
@@ -596,12 +604,12 @@ footer h4 {
 }
 
 .text {
-  margin-left: 96px;
   order: 1
 }
 
 .cvBut {
   width: 254px;
+  height: 70px;
 }
 
 /* contact section */
