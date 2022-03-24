@@ -637,13 +637,15 @@ footer h4 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 34px;
+  justify-content: space-between;
   width: 542px;
+  padding: 0;
   
 }
 
 .textarea {
   width: 100%;
+  margin-top: 42px;
 }
 
 .getBut {
