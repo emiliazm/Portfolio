@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 
-header {
+.headbar {
   background-color: white;
   height: 74px;
   display: flex;
@@ -426,6 +426,42 @@ footer h4 {
 
 /* Media Query */
 @media screen and (min-width: 768px) {
+
+  body {
+    max-width: 1440px;
+  }
+
+  /* header */
+  .headbar {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1a2236;
+  }
+
+  /* headline*/
   .pic1 {
     display: none;
   }
@@ -464,4 +500,7 @@ footer h4 {
     display: none;
   }
   
+  .nav-list {
+    display: none;
+  }
 }
