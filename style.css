@@ -433,18 +433,18 @@ footer h4 {
   h1 {
     font-size: 110px;
     width: 520px;
+    padding: 0;
     margin: 192px auto 60px 160px;
+    overflow-wrap: normal;
+   
   }
 
   .headline {
     width: 100%;
     height: auto;
     padding: 0;
-    background-image: url(./images/big-background.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 702px 877px;
-    
+    background: url(./images/image_dots.png) bottom center no-repeat, url(./images/big-background.png) top right no-repeat;
+    background-size: auto, 702px 877px;
   }
 
   .presentation {
@@ -456,13 +456,6 @@ footer h4 {
     width: 254px;
     height: 70px;
     margin: 59px 0 188.72px 160px;
-  }
-
-  .dots {
-    width: 175px;
-    height: 175px;
-    position: absolute;
-    transform: translate(563px, 698px);
   }
 }
 
