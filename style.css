@@ -1,4 +1,9 @@
 /* start section */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
 
 body {
   background-color: #e5e5e5;
@@ -470,44 +475,63 @@ footer h4 {
     display: none;
   }
 
+  .img-container {
+    width: 50%;
+    height: 90vh;
+  }
+
+  .img-back-big {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/big-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+  }
+
+  .text-headline {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10vw;
+    background-image: url(./images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+  }
+
+
   h1 {
-    font-size: 110px;
-    width: 400px;
+    font-size: 7.6vw;
+    width: 30%;
     padding: 0;
     line-height: 100%;
-    margin: 192px auto 0 160px;
     overflow-wrap: normal;
   }
 
-  .h1porjects {
-    font-size: 110px;
-    width: 50%;
-    padding: 0;
-    margin: 192px auto 60px 160px;
-  }
-
   .headline {
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     padding: 0;
-    margin: 0;
+    margin:0;
     background-image:
-      url(./images/image_dots.png),
-      url(./images/big-background.png);
-    background-position-x: 55%, right; /* fix */
-    background-position-y: bottom, top;
-    background-size: auto, contain;
+      url(./images/image_dots.png);
+    background-position-x: -50%;
+    background-position-y: bottom;
+    background-size: auto;
+    display: flex;
+    flex-direction: row;
   }
 
   .presentation {
-    width: 33%;
-    margin: 60px auto 59px 160px;
+    width: 90%;
   }
 
   .start {
     width: 254px;
     height: 70px;
-    margin: 0 0 188.72px 160px;
   }
 
   /* projets section */
@@ -653,6 +677,7 @@ footer h4 {
     width: 100%;
     margin: 0 auto 20px 0;
     padding: 0;
+    text-overflow: ellipsis;
   }
 
   .box4 {
@@ -701,6 +726,7 @@ footer h4 {
 
   .h1about {
     margin: 28px auto 30px 0;
+    width: 100%;
   }
 
   .text {
