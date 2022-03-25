@@ -431,7 +431,7 @@ footer h4 {
 /* Media Query */
 @media screen and (min-width: 768px) {
   body {
-    max-width: 1440px;
+    max-width: 100vw;
   }
 
   /* header */
@@ -444,7 +444,7 @@ footer h4 {
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 100px;
+    height: 10vh;
   }
 
   .nav-list {
@@ -480,27 +480,27 @@ footer h4 {
 
   .h1porjects {
     font-size: 110px;
-    width: 520px;
+    width: 50%;
     padding: 0;
     margin: 192px auto 60px 160px;
-    overflow-wrap: normal;
+    /*overflow-wrap: normal;*/
   }
 
   .headline {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 90vh;
     padding: 0;
     margin: 0;
     background-image:
       url(./images/image_dots.png),
       url(./images/big-background.png);
-    background-position-x: 563px, right;
+    background-position-x: 55%, right; /*fix*/
     background-position-y: bottom, top;
-    background-size: 175px 175px, 702px 100%;
+    background-size: auto, contain;
   }
 
   .presentation {
-    width: 484px;
+    width: 33%;
     margin: 60px auto 59px 160px;
   }
 
