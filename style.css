@@ -667,10 +667,11 @@ footer h4 {
   .about {
     display: flex;
     flex-direction: row;
-    max-width: 1440px;
-    padding: 216px 160px 158px 160px;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     gap: 0;
-    align-items: flex-start;
+    padding: 0;
   }
 
   .colorboxs {
@@ -678,9 +679,9 @@ footer h4 {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0;
-    width: 6000px;
+    width: 30%;
     background-image: url(./images/image_dots_with_teal.png);
-    background-position-x: 356.88px;
+    background-position-x: right;
     background-position-y: bottom;
     background-size: auto;
     background-repeat: no-repeat;
@@ -691,8 +692,13 @@ footer h4 {
   }
 
   .text {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
     margin-left: 96px;
+    margin-top: 12%;
     order: 1;
+    width: 20%;
   }
 
   .cvBut {
