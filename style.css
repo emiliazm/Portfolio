@@ -471,10 +471,8 @@ footer h4 {
   a:hover,
   a:focus {
     background-color: #1a2236;
-    color: #fff;
+    color: #1c528a;
   }
-
-
 
   /* headline */
   .pic1 {
@@ -518,7 +516,7 @@ footer h4 {
 
   h1:hover {
     transform: rotate(360deg);
-    transition: width 3s, height 3s, transform 3s;
+    transition: width 2s, height 2s, transform 2s;
   }
 
   .headline {
