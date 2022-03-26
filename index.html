@@ -12,40 +12,61 @@
 </head>
 
 <body>
+    
     <header>
+        <div class="headbar1">
         <a href="index.html">
             <img class="pic1" src="./images/image_1.png" alt="geometry">
         </a>
-        <nav><img class="menu" src="./images/ic_menu.png" alt="Menu"></nav>
+        <img class="menu" src="./images/ic_menu.png" alt="Menu">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html">Hello</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section class="headline">
-        <h1 class="name" >Emilia Zambrano</h1>
-        <p class="Presentation" >Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-            If you like what you see and have a project you need coded, do not hesitate and contact me.
-        </p>
-        <button class="start" type="button">Start collaboration</button>
+        <div class="text-headline">
+            <h1 class="name">Emilia <br> Zambrano</h1>
+            <p class="presentation" >Hello! I am a software developer! I can help you build a product, feature or website. Tak a look of my works. <br>
+                If you like what you see and have a project you need coded, do not hesitate and contact me.
+            </p>
+            <button class="start" type="button">Start collaboration</button>
+        </div>
+        <div class="img-container">
+            <div class="img-back-big">
+            </div>
+            <div class="img-back-dots"></div>
+        </div>
     </section>
-    
-    <section class="projects">
-        <h1 class="h1projects">Projects</h1>
 
-        <article class="work">
-            <img class="imgArticle" src="./images/proj_1.png" alt="First Project">
-            <article class="info">
-                <h2 class="proj-name">Project name goes here</h2>
-                <ul class="box">
+    <section class="projects">
+        <div class="container-text-proj1">
+            <div class="h1proj11"><h1 class="h1projects">Projects</h1></div>
+            <div class="backh1proj1"></div>
+        </div>
+        
+        <article class="work work1">
+            <img class="imgArticle art1" src="./images/proj_1.png" alt="First Project">
+            <article class="info info11">
+                <h2 class="proj-name project-name1">Project name goes here</h2>
+                <ul class="box box11">
                     <li class="work-list">HTML/CSS</li>
                     <li class="work-list">Ruby on Rails</li>
                     <li class="work-list">JavaScript</li>      
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
+                <button class="see see11" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
             </article>
         </article>
 
-        <article class="work">
+        <article class="work work2">
             <img class="imgArticle" src="./images/Proj_2.png" alt="First Project">
-            <article class="info">
+            <article class="info info2">
                 <h2 class="proj-name">Project name goes here</h2>
                 <ul class="box">
                     <li class="work-list">HTML/CSS</li>
@@ -56,9 +77,9 @@
             </article>      
         </article>
 
-        <article class="work">
+        <article class="work work3">
             <img class="imgArticle" src="./images/Proj_3.png" alt="First Project">
-            <article class="info">
+            <article class="info info3">
                 <h2 class="proj-name">Project name goes here</h2>
                 <ul class="box">
                     <li class="work-list">HTML/CSS</li>
@@ -69,22 +90,23 @@
             </article>     
         </article>
 
-        <article class="work">
-            <img class="imgArticle" src="./images/Proj_4.png" alt="First Project">
-            <article class="info">
-                <h2 class="proj-name">Project name goes here</h2>
-                <ul class="box">
+        <article class="work work4">
+            <img class="imgArticle art4" src="./images/Proj_4.png" alt="First Project">
+            <article class="info info4">
+                <h2 class="proj-name project-name4">Project name goes here</h2>
+                <ul class="box box4">
                     <li class="work-list">HTML/CSS</li>
-                    <li class="work-list">Ruby on Rails</li>
-                    <li class="work-list">JavaScript</li>      
+                    <li class="work-list rubyonrails">Ruby on Rails</li>
+                    <li class="work-list javalist">JavaScript</li>
+                    <li class="work-list mas1">+1</li>
                 </ul>
-                <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
-            </article>     
+                <button class="see see4" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="warrow"></button>
+            </article>            
         </article>
 
-        <article class="work">
+        <article class="work work5">
             <img class="imgArticle" src="./images/Proj_5.png" alt="First Project">
-            <article class="info">
+            <article class="info info5">
                 <h2 class="proj-name">Project name goes here</h2>
                 <ul class="box">
                     <li class="work-list">HTML/CSS</li>
@@ -95,9 +117,9 @@
             </article>     
         </article>
 
-        <article class="work">
+        <article class="work work6">
             <img class="imgArticle" src="./images/Proj_6.png" alt="First Project">
-            <article class="info">
+            <article class="info info6">
                 <h2 class="proj-name">Project name goes here</h2>
                 <ul class="box">
                     <li class="work-list">HTML/CSS</li>
@@ -109,87 +131,91 @@
         </article>
     </section>
 
-    <section class="about">
-        <div class="text">
-            <h1 class="h1about">About</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
-            <button class="cvBut" type="button">Get my CV <img src="./images/download.png" alt="Download CV"><img src="./images/download-blue.png" alt="Download CV"></button>
-        </div>
-        <article class="languages">
-            <h3>Languages</h3>
-            <ul class="lang-list">
-                <li class= "about-list">JavaScript(ES5/ES6)</li>
-                <li class= "about-list">Ruby</li>
-                <li class= "about-list">HTML</li>
-                <li class= "about-list">CSS</li>
+    <div class="wrapp">
+        <section class="about">
+            <div class="text">
+                <h1 class="h1about">About</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+                <button class="cvBut" type="button">Get my CV <img src="./images/download.png" alt="Download CV"><img src="./images/download-blue.png" alt="Download CV"></button>
+            </div>
+            <div class="colorboxs">
+                <article class="languages">
+                    <h3>Languages</h3>
+                    <ul class="lang-list">
+                        <li class= "about-list">JavaScript(ES5/ES6)</li>
+                        <li class= "about-list">Ruby</li>
+                        <li class= "about-list">HTML</li>
+                        <li class= "about-list">CSS</li>
+                    </ul>
+                    <img class="hash" src="./images/hash.png" alt="">
+                </article>
+
+                <article class="framework">
+                    <h3>Frameworks</h3>
+                    <ul class="lang-list">
+                        <li class= "about-list">Bootstrap</li>
+                        <li class= "about-list">Ruby on rails</li>
+                        <li class= "about-list">RSpec</li>
+                        <li class= "about-list">Capibara</li>
+                        <li class= "about-list">Selenium</li>
+                    </ul>
+                    <img class="sq" src="./images/fram.png" alt="">
+                </article>
+
+                <article class="skills">
+                    <h3>Skills</h3>
+                    <ul class="lang-list">
+                        <li class= "about-list">Codekit</li>
+                        <li class= "about-list">Codepen</li>
+                        <li class= "about-list">GitAb</li>
+                        <li class= "about-list">Terminal</li>
+                    </ul>
+                    <img class="bulb" src="./images/skills.png" alt="">
+                </article>
+            </div>
+        </section>
+    </div>
+
+        <section class="contact">
+            <img class="pic11" src="./images/image_1.png" alt="logo">
+            <h1 class="get-st">Get Started</h1>
+            <p class="get-ph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+            <form class="form" action="https://formspree.io/f/xrgjlwgg" method="post">
+
+                <fieldset class="contactfield">
+                    <label class="label-name"> Your name
+                        <input type="text" maxlength="30" placeholder="Anastasiia" required>
+                    </label>
+                </fieldset>
+
+                
+                <fieldset class="contactfield">
+                    <label class="label-email"> Your email
+                        <input type="email" placeholder="anastasia@domain.com" required>
+                    </label>                
+                </fieldset>
+                
+                <fieldset class="contactfield textarea">
+                    <textarea name="text area" maxlength="500" placeholder="Enter your message here..." required></textarea>
+                </fieldset>
+
+                <button class="getBut" type="submit">Start Collaboration</button>
+            </form>
+        </section>
+
+        <footer class="foot">
+            <h4 class="foot-title">Get my Resume <img src="./images/cv.png" alt="downresume"></h4>
+            <ul class="foot-list">
+                <li><img src="./images/down2.png" alt=""></li>
+                <li><img src="./images/github.png" alt=""></li>
+                <li><img src="./images/twit.png" alt=""></li>
+                <li><img src="./images/in.png" alt=""></li>
+                <li><img src="./images/m.png" alt=""></li>
+                <li><img src="./images/vector.png" alt=""></li>
             </ul>
-            <img class="hash" src="./images/hash.png" alt="">
-        </article>
-
-        <article class="framework">
-            <h3>Frameworks</h3>
-            <ul class="lang-list">
-                <li class= "about-list">Bootstrap</li>
-                <li class= "about-list">Ruby on rails</li>
-                <li class= "about-list">RSpec</li>
-                <li class= "about-list">Capibara</li>
-                <li class= "about-list">Selenium</li>
-            </ul>
-            <img class="sq" src="./images/fram.png" alt="">
-        </article>
-
-        <article class="skills">
-            <h3>Skills</h3>
-            <ul class="lang-list">
-                <li class= "about-list">Codekit</li>
-                <li class= "about-list">Codepen</li>
-                <li class= "about-list">GitAb</li>
-                <li class= "about-list">Terminal</li>
-            </ul>
-            <img class="bulb" src="./images/skills.png" alt="">
-        </article>
-    </section>
-
-
-    <section class="contact">
-        <img class="pic11" src="./images/image_1.png" alt="logo">
-        <h1 class="get-st">Get Started</h1>
-        <p class="get-ph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-
-        <form class="form" action="https://formspree.io/f/xrgjlwgg" method="post">
-
-            <fieldset class="contactfield">
-                <label class="label-name"> Your name
-                    <input type="text" maxlength="30" placeholder="Anastasiia" required>
-                </label>
-            </fieldset>
-
-            
-            <fieldset class="contactfield">
-                <label class="label-email"> Your email
-                    <input type="email" placeholder="anastasia@domain.com" required>
-                </label>                
-            </fieldset>
-            
-            <fieldset class="contactfield">
-                <textarea name="text area" maxlength="500" placeholder="Enter your message here..." required></textarea>
-            </fieldset>
-
-            <button class="getBut" type="submit">Start Colaboration</button>
-        </form>
-    </section>
-
-    <footer class="foot">
-        <h4 class="foot-title">Get my Resume <img src="./images/cv.png" alt="downresume"></h4>
-        <ul class="foot-list">
-            <li><img src="./images/down2.png" alt=""></li>
-            <li><img src="./images/github.png" alt=""></li>
-            <li><img src="./images/twit.png" alt=""></li>
-            <li><img src="./images/in.png" alt=""></li>
-            <li><img src="./images/m.png" alt=""></li>
-            <li><img src="./images/vector.png" alt=""></li>
-        </ul>
-    </footer>
+        </footer>
+    
 
 </body>
 </html>
