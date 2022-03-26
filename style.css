@@ -465,7 +465,16 @@ footer h4 {
   a {
     text-decoration: none;
     color: #1a2236;
+    transition: all 0.5s ease-out;
   }
+
+  a:hover,
+  a:focus {
+    background-color: #1a2236;
+    color: #fff;
+  }
+
+
 
   /* headline */
   .pic1 {
