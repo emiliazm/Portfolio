@@ -48,7 +48,6 @@ body {
   font-style: normal;
   font-weight: 400;
   text-align: left;
-  margin: 30px 0 20px 0;
   color: #1a2236;
   margin: 39.31px 16px 32px 0;
 }
@@ -111,7 +110,6 @@ p,
   font-style: normal;
   font-weight: 400;
   text-align: left;
-  margin: 30px 0 20px 0;
   color: #1a2236;
   margin: 39.31px 16px 32px 16px;
 }
@@ -195,7 +193,6 @@ p,
   font-style: normal;
   font-weight: 400;
   text-align: left;
-  margin: 30px 0 20px 0;
   color: #1a2236;
   margin: 39.31px 16px 32px 0;
 }
@@ -339,7 +336,6 @@ textarea {
   text-align: left;
   margin: 0;
   color: #1a2236;
-
 }
 
 .getBut {
