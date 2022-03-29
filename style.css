@@ -35,7 +35,6 @@ body {
   background-color: white;
   padding: 0 16px 0 16px;
   height: 572.31px;
-
 }
 
 .text-headline {
@@ -672,7 +671,6 @@ footer h4 {
   .art2,
   .art3,
   .art4,
-  .art3,
   .art5 {
     width: 100%;
     height: 100%;
@@ -765,7 +763,7 @@ footer h4 {
     margin-left: 0;
     margin-bottom: 0;
   }
-  
+
   .list6 {
     font-size: 10px;
   }
@@ -897,8 +895,6 @@ footer h4 {
     width: 100%;
     margin-top: 42px;
   }
-
-
 
   .getBut {
     width: 254px;
