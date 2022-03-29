@@ -35,10 +35,23 @@ body {
   background-color: white;
   padding: 0 16px 0 16px;
   height: 572.31px;
+
+}
+
+.text-headline {
+  width: 100%;
+  height: 70%;
+}
+
+.img-container-mobile {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 30%;
   background-image: url(./images/image_2.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: auto;
+  background-size: contain;
 }
 
 h1,
@@ -95,6 +108,10 @@ p,
 .projects {
   background: white;
   display: grid;
+}
+
+.imgArticle {
+  width: 100%;
 }
 
 .work {
@@ -426,8 +443,12 @@ footer h4 {
 
 /* Media Query */
 @media screen and (min-width: 768px) {
-  body {
-    max-width: 100vw;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
   /* header */
@@ -441,7 +462,8 @@ footer h4 {
     align-items: center;
     background-color: white;
     height: 10vh;
-    width: 100%;
+    max-width: 1440px;
+    margin: 0;
   }
 
   .nav-list {
@@ -465,65 +487,73 @@ footer h4 {
   a:hover,
   a:focus {
     background-color: #1a2236;
-    color: #1c528a;
+    color: white;
   }
 
   /* headline */
-  .pic1 {
-    display: none;
-  }
-
-  .img-container {
-    width: 50%;
-    height: 90vh;
-  }
-
-  .img-back-big {
-    width: 100%;
-    height: 90vh;
-    background-image: url(./images/big-background.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
-
-  .text-headline {
-    width: 50%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 10vw;
-    background-image: url(./images/image_dots.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 20%;
-  }
-
-  h1 {
-    font-size: 7.6vw;
-    width: 30%;
-    padding: 0;
-    line-height: 100%;
-    overflow-wrap: normal;
-  }
-
-  h1:hover {
-    transform: rotate(360deg);
-    transition: width 2s, height 2s, transform 2s;
-  }
-
   .headline {
+    max-width: 1440px;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     padding: 0;
     margin: 0;
     background-image: url(./images/image_dots.png);
     background-position-x: -50%;
     background-position-y: bottom;
     background-size: auto;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
+    align-items: center;
+  }
+
+  .pic1 {
+    display: none;
+  }
+
+  .img-container-mobile {
+    display: none;
+  }
+
+  .img-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .img-back-big {
+    width: 100%;
+    height: 877px;
+    background-image: url(./images/big-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .text-headline {
+    width: 40%;
+    height: 877px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5% 0 5%;
+    background-image: url(./images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+  }
+
+  .headline-title {
+    font-size: 450%;
+    font-weight: 400;
+    width: 100%;
+    line-height: 100%;
+    margin-bottom: 10%;
+    overflow-wrap: normal;
+  }
+
+  h1:hover {
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, transform 2s;
   }
 
   .presentation {
@@ -537,89 +567,119 @@ footer h4 {
 
   /* projets section */
   .projects {
-    padding-top: 210px;
-    width: 100%;
-    height: 100%;
-    margin: 0;
     display: grid;
-    grid-template-rows: 12.59% 21.68% 3.19% 13.39% 3.38% 12.29% 11.8% 16.59%;
-    grid-template-columns: 33% 23% 12% 19% 13%;
-    background-image: url(./images/image-group.png);
-    background-repeat: no-repeat;
-    background-size: 101% auto;
-    background-position-y: 75%;
+    grid-template-columns: 32.3% 23.27% 11.12% 21.19% 11.12%;
+    grid-template-rows: 33.9622% 4.8691% 11.5642% 4.8691% 11.5642% 16.7376% 16.4333%;
+    gap: 0 0;
+    grid-auto-flow: row;
+    max-width: 1440px;
+    max-height: 1643px;
+    margin-top: 10%;
   }
 
-  .container-text-proj1 {
-    display: flex;
+  .title {
+    grid-area: 1 / 1 / 2 / 2;
     background-image: url(./images/image_dots.png);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: top right;
+    background-size: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    font-size: 100%;
   }
 
   .h1projects {
-    margin: 0;
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    transform: rotate(-90deg) translate(-65px, 0);
-    font-size: 100px;
-    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    transform: rotate(-90deg);
+    padding: 20% 0 20% 40%;
+    margin: 0%;
   }
 
-  .work1 {
-    grid-column: 2 / span 4;
-    grid-row: 1 / span 2;
+  .project1 {
+    grid-area: 1 / 2 / 2 / 6;
+    background-image: url(./images/proj_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
   }
 
-  .work2 {
-    grid-column: 1;
-    grid-row: 4;
+  .project2 { grid-area: 3 / 1 / 5 / 2; }
+
+  .project3 { grid-area: 5 / 1 / 7 / 3; }
+
+  .project4 { grid-area: 4 / 4 / 6 / 6; }
+
+  .project5 { grid-area: 7 / 3 / 8 / 5; }
+
+  .project6 {
+    grid-area: 2 / 4 / 4 / 6;
+    background-image: url(./images/Proj_6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
   }
 
-  .work3 {
-    grid-column: 1 / 3;
-    grid-row: 5 / span 2;
+  .back-center {
+    grid-area: 2 / 2 / 5 / 4;
+    background-image: url(./images/geometry-work-center.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
   }
 
-  .work4 {
-    grid-column: 4 / 6;
-    grid-row: 6 / 7;
+  .back-bottom {
+    grid-area: 7 / 1 / 8 / 3;
+    background-image:
+      url(./images/geometry-work-bottoncenter.png),
+      url(./images/geometry-worw-bottonleft.png);
+    background-repeat: no-repeat;
+    background-position: top right, top left;
   }
 
-  .work5 {
-    grid-column: 3 / span 2;
-    grid-row: 8;
-  }
-
-  .work6 {
-    display: none;
-  }
-
-  .info5 {
-    visibility: hidden;
+  .back-right {
+    grid-area: 6 / 3 / 7 / 6;
+    background-image: url(./images/geometry-work-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .info11 {
-    height: 100%;
-    margin-top: -358px;
-    padding: 60px;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: 50%;
   }
 
+  .info6 {
+    width: 100%;
+  }
+
+  .info2,
+  .info3,
+  .info5,
   .info4 {
+    visibility: hidden;
+  }
+
+  .art1,
+  .art2,
+  .art3,
+  .art4,
+  .art3,
+  .art5 {
+    width: 100%;
     height: 100%;
-    padding: 30px 24px 30px 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -350px;
   }
 
-  .info2 {
-    display: none;
-  }
-
-  .info3 {
+  .art1,
+  .art6 {
     display: none;
   }
 
@@ -628,22 +688,24 @@ footer h4 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 40px;
     width: 100%;
-    margin: 0 auto 34px 20px;
+    margin: 5% auto 3% 7%;
     padding: 0;
   }
 
   .box11 {
     display: flex;
+    flex-wrap: nowrap;
     gap: 20px;
-    margin-bottom: 60px;
+    margin: 0 0 5% 7%;
   }
 
   .work-list {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     gap: 20px;
     height: 30px;
     font-family: 'Poppins', sans-serif;
@@ -661,34 +723,37 @@ footer h4 {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    margin-bottom: 0;
+    margin-bottom: 5%;
+    margin-left: 7%;
   }
 
-  /* info work4 */
-  .project-name4 {
+  /* info work6 */
+  .proj-name6-1 {
+    display: none;
+  }
+
+  .porj-name6-2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
     width: 100%;
-    margin: 0 auto 20px 0;
+    margin: 5% auto 3% 7%;
     padding: 0;
-    text-overflow: ellipsis;
   }
 
-  .box4 {
+  .box6 {
     display: flex;
-    gap: 5px;
-    margin-left: 0;
-    margin-bottom: 15px;
-    line-height: 100%;
-    font-size: 10px;
-    padding-right: 0;
+    flex-wrap: nowrap;
+    gap: 1%;
+    font-size: 15%;
+    padding: 0;
+    white-space: nowrap;
     text-overflow: ellipsis;
     margin-right: 0;
   }
 
-  .see4 {
+  .see6 {
     display: flex;
     justify-content: center;
     height: 51px;
@@ -700,9 +765,23 @@ footer h4 {
     margin-left: 0;
     margin-bottom: 0;
   }
+  
+  .list6 {
+    font-size: 10px;
+  }
+
+  .java-list {
+    display: none;
+  }
+
+  .rubyonrails {
+    padding-right: 0;
+    white-space: nowrap;
+    text-overflow: clip;
+  }
 
   /* About section */
-  .wrapp {
+  .container-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -716,8 +795,6 @@ footer h4 {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 100%;
     margin: 0;
     gap: 0;
     padding: 10% 0;
@@ -744,6 +821,8 @@ footer h4 {
   }
 
   .h1about {
+    font-size: 110px;
+    font-weight: 400;
     margin: 28px auto 30px 0;
     width: 100%;
   }
@@ -765,6 +844,14 @@ footer h4 {
   }
 
   /* contact section */
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+  }
+
   .contact {
     width: 100%;
     height: 100%;
@@ -785,6 +872,8 @@ footer h4 {
   }
 
   .get-st {
+    font-size: 110px;
+    font-weight: 400;
     width: 560px;
     margin-top: 168px;
     margin-bottom: 40px;
@@ -809,6 +898,8 @@ footer h4 {
     margin-top: 42px;
   }
 
+
+
   .getBut {
     width: 254px;
     height: 70px;
@@ -823,6 +914,7 @@ footer h4 {
     align-items: center;
     height: 10vh;
     width: 100%;
+    max-width: 1440px;
   }
 
   .foot-title {
@@ -833,19 +925,6 @@ footer h4 {
     display: flex;
     gap: 32px;
     margin: 0;
-  }
-
-  .javalist {
-    display: none;
-  }
-
-  .rubyonrails {
-    width: 1000px;
-    padding-right: 0;
-    line-height: 100%;
-    font-size: 15px;
-    white-space: nowrap;
-    text-overflow: clip;
   }
 }
 
@@ -866,7 +945,11 @@ footer h4 {
     display: none;
   }
 
-  .mas1 {
+  .plus1 {
+    display: none;
+  }
+
+  .proj-name6-2 {
     display: none;
   }
 }
