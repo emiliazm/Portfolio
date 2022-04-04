@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .headbar1 {
   background-color: white;
   height: 74px;
@@ -461,18 +465,18 @@ footer h2 {
   display: none;
 }
 
-/* mobile-menu */
-/* .mobile-menu {
-  display: none;
-} */
-
 .mobile-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #e2505c;
-  height: 100vh;
+  background-image: url(./images/emilia.PNG);
+  background-size: cover;
+  height: 650px;
   position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .mobile-menu-background {
