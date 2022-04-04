@@ -466,9 +466,7 @@ footer h2 {
 }
 
 .mobile-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: none;
   background-image: url(./images/emilia.PNG);
   background-size: cover;
   height: 650px;
@@ -480,7 +478,11 @@ footer h2 {
 }
 
 .mobile-menu-background {
-  background-color: #92dcdc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 650px;
 }
 
 .fa-xmark {
