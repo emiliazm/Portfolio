@@ -466,23 +466,41 @@ footer h2 {
 }
 
 .mobile-menu {
+  background-color: white;
   display: none;
-  background-image: url(./images/emilia.PNG);
-  background-size: cover;
-  height: 650px;
+  /* height: auto; */
   position: relative;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  padding: 0;
 }
 
 .mobile-menu-background {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  height: 650px;
+  height: 850px;
+}
+
+.mobile-menu-top-back {
+  display: flex;
+  max-width: 100%;
+  height: 100%;
+  background-image: url(./images/mobile-menu-top-background.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mobile-menu-bottom-back {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/mobile-menu-bottom-background.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .fa-xmark {
@@ -516,12 +534,12 @@ a {
   color: #1a2236;
 }
 
-.mobile-menu-bottombackground {
+/* .mobile-menu-bottombackground {
   background-image: url(./images/mobile-menu\ bottom\ background.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100vw auto;
-}
+} */
 
 /* Media Query */
 @media screen and (min-width: 768px) {
