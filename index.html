@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             </nav>
         </header>
 
-        <section class="headline">
+        <section id="link-hello-section" class="headline">
             <div class="text-headline">
                 <h1 class="name headline-title">Emilia <br> Zambrano</h1>
                 <p class="presentation" >Hello! I am a software developer! I can help you build a product, feature or website. Tak a look of my works. <br>
@@ -46,7 +47,7 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section id="link-projects-section" class="projects">
         
             <div class="title">
                 <h2 class="h2projects">Projects</h2>
@@ -142,7 +143,7 @@
         
         </section>
 
-        <section class="container-about">
+        <section id="link-about-section" class="container-about">
             <div class="about">
                 <div class="text">
                     <h2 class="h2about">About</h2>
@@ -187,7 +188,7 @@
             </div>
         </section>
 
-        <section class="container-contact">
+        <section id="link-contact-section" class="container-contact">
 
             <div class="contact">
                 <div class="contact-text">
@@ -234,7 +235,26 @@
                 <li><img src="./images/vector.png" alt="angel"></li>
             </ul>
         </footer>
+
+        <div class="mobile-menu">
+            <div class="mobile-menu-background">
+                <i class="fa fa-xmark"></i>
+                <div class="mobile-menu-top-back"></div>
+                <nav class="hamburger-navbar">
+                    <ul class="hamburger-nav-list">
+                        <li><a href="#link-hello-section">Hello</a></li>
+                        <li><a href="#link-projects-section">Portfolio</a></li>
+                        <li><a href="#link-about-section">About</a></li>
+                        <li><a href="#link-contact-section">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-bottom-back"></div>
+            </div>
+        </div>
         
     </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
