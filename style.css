@@ -468,7 +468,6 @@ footer h2 {
 .mobile-menu {
   background-color: white;
   display: none;
-  /* height: auto; */
   position: relative;
   position: absolute;
   top: 0;
@@ -532,13 +531,6 @@ a {
   text-decoration: none;
   color: #1a2236;
 }
-
-/* .mobile-menu-bottombackground {
-  background-image: url(./images/mobile-menu\ bottom\ background.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100vw auto;
-} */
 
 /* Media Query */
 @media screen and (min-width: 768px) {
