@@ -485,20 +485,19 @@ footer h2 {
 
 .mobile-menu-top-back {
   display: flex;
-  max-width: 100%;
-  height: 100%;
+  max-width: 90%;
+  height: 50%;
   background-image: url(./images/mobile-menu-top-background.png);
-  background-position: left top;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .mobile-menu-bottom-back {
   display: flex;
-  width: 100%;
-  height: 100%;
+  height: 50%;
   background-image: url(./images/mobile-menu-bottom-background.png);
-  background-position: left top;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
 }
