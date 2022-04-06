@@ -533,7 +533,7 @@ a {
 
 /* popup projects */
 .popup {
-  /*display: none;*/
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -569,11 +569,11 @@ a {
 .popup-proj1 {
   color: #1a2236;
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
   margin: 0 0 5%;
   padding: 0;
-  font-style: normal;
-  font-weight: 700,;
-  font-size: 20px;
 }
 
 .popup-box {
