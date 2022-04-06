@@ -531,6 +531,8 @@ a {
   color: #1a2236;
 }
 
+
+
 /* Media Query */
 @media screen and (min-width: 768px) {
   .wrapper {
