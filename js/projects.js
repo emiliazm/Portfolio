@@ -1,9 +1,11 @@
 /* eslint-disable linebreak-style */
+const pops = document.querySelector('.popup');
 const Projects = [
   {
     class: 'project1',
     name: 'Project number One',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/proj_1.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
     liveVersion: 'See Live',
@@ -14,8 +16,9 @@ const Projects = [
   {
     class: 'project2',
     name: 'Project number Two',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/proj_2.png',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: './images/Proj_2.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
     liveVersion: 'See Live',
     source: 'See source',
@@ -25,8 +28,9 @@ const Projects = [
   {
     class: 'project3',
     name: 'Project number Three',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/proj_3.png',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: './images/Proj_3.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
     liveVersion: 'See Live',
     source: 'See source',
@@ -36,8 +40,9 @@ const Projects = [
   {
     class: 'project4',
     name: 'Project number Four',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/proj_4.png',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: './images/Proj_4.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
     liveVersion: 'See Live',
     source: 'See source',
@@ -47,8 +52,9 @@ const Projects = [
   {
     class: 'project5',
     name: 'Project number Five',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/proj_5.png',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: './images/Proj_5.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
     liveVersion: 'See Live',
     source: 'See source',
@@ -58,8 +64,9 @@ const Projects = [
   {
     class: 'project6',
     name: 'Project number Six',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/proj_6.png',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: './images/Proj_6.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
     liveVersion: 'See Live',
     source: 'See source',
@@ -67,43 +74,21 @@ const Projects = [
   },
 ];
 
-const title = document.querySelector('.projects .title');
-let inDiv = '';
+const showPop = (projectNum) => {
+  const Project = Projects[projectNum];
+  console.log('showPop', Project);
 
-Projects.forEach((Project) => {
-  inDiv += `<div class="${Project.class}">
-    <img class="imgArticle art" src="${Project.image}" alt="First Project">
-    <div class="info">
-        <h3 class="proj-name project-name">${Project.name}</h3>
-        <ul class="box">`;
-  Project.technologies.forEach((tech) => { inDiv += `<li class="work-list">${tech}</li>`; });
-  inDiv += `
-        </ul>
-        <button class="see" type="button">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="white arrow"></button>
-    </div>
-    </div>
-    `;
-});
+  const popup = document.querySelector('.projects .see');
 
-const divToProjects = document.createElement('div');
-divToProjects.innerHTML = inDiv;
-
-title.after(divToProjects);
-
-// END
-// popup window
-
-const popup = document.querySelector('.projects .see');
-let inPop = '';
-
-Projects.forEach((Project) => {
-  inPop += `<div class="${Project.class}">
+  let inPop = `<div class="${Project.class}">
     <div class="popup-container">
       <img class="popup-close" src="${Project.crossimg}" alt="close cross">
       <div class="popup-header">
         <h3 class="popup-proj1">${Project.name}</h3>
         <ul class="popup-box">`;
-  Project.technologies.forEach((tech) => { inDiv += `<li class="popup-work-list">${tech}</li>`; });
+  Project.technologies.forEach((tech) => {
+    inDiv += `<li class="popup-work-list">${tech}</li>`;
+  });
   inPop += `
         </ul>
       </div>
@@ -128,26 +113,34 @@ Projects.forEach((Project) => {
     </div>
   </div>
   `;
+
+  const popToProjects = document.createElement('div');
+  popToProjects.innerHTML = inPop;
+  pops.appendChild(popToProjects);
+  pops.style.display = 'block';
+};
+
+const title = document.querySelector('.projects .title');
+let inDiv = '';
+
+Projects.forEach((Project, i) => {
+  inDiv += `<div class="${Project.class}">
+    <img class="imgArticle art" src="${Project.image}" alt="First Project">
+    <div class="info">
+        <h3 class="proj-name project-name">${Project.name}</h3>
+        <ul class="box">`;
+  Project.technologies.forEach((tech) => {
+    inDiv += `<li class="work-list">${tech}</li>`;
+  });
+  inDiv += `
+        </ul>
+        <button class="see" type="button" onclick="showPop(${i})">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="white arrow"></button>
+    </div>
+    </div>
+    `;
 });
 
-const popToProjects = document.createElement('div');
-popToProjects.innerHTML = inPop;
+const divToProjects = document.createElement('div');
+divToProjects.innerHTML = inDiv;
 
-// popup.after(popToProjects);
-function showPop(popProject) {
-  console.log('showPop');
-}
-
-const popUp = document.querySelector('.popup');
-const pressSeeButtom = document.querySelectorAll('.see');
-pressSeeButtom.addEventListener('click', () => showPop(''));
-
-// const pops = document.querySelector('.popup');
-// document.querySelectorAll('.see').forEach((bSee) => bSee.addEventListener('click', () => {
-//   console.log('hola')
-//   pops.style.display = 'block';
-// }));
-
-// document.querySelectorAll('.popup-close').forEach((bCross) => bCross.addEventListener('click', () => {
-//   pops.style.display = 'none';
-// }));
+title.after(divToProjects);
