@@ -531,7 +531,139 @@ a {
   color: #1a2236;
 }
 
+/* popup projects */
+.popup {
+  /*display: none;*/
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  min-width: 320px;
+  overflow: auto;
+  background-color: white;
+}
 
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.popup-close {
+  display: flex;
+  align-self: flex-end;
+  margin: 5%;
+  width: 6%;
+  height: auto;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3%;
+}
+
+.popup-proj1 {
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 0 5%;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700,;
+  font-size: 20px;
+}
+
+.popup-box {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3%;
+}
+
+.popup-box li {
+  white-space: nowrap;
+  background: #fff;
+  border: 0.5px solid  #1a2236;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10.3334px;
+  line-height: 8.27px;
+  padding: 6px 10px;
+}
+
+.popup-pictures {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.popup-bigImages {
+  display: flex;
+}
+
+.popup-smallImages {
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a2236;
+  width: fit-content;
+  padding-top: 3%;
+}
+
+.popup-bottoms {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  gap: 10%;
+}
+
+.popup-live-btn,
+.popup-source-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15%;
+  border: 1px solid #1a2236;
+  margin-bottom: 10%;
+  padding: 0;
+  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1a2236;
+}
+
+/*
+.:hover,
+.:hover {
+  background-color: ;
+  transition: background-color 1s;
+}
+
+.:active,
+.:active {
+  background-color:;
+  color:;
+} */
 
 /* Media Query */
 @media screen and (min-width: 768px) {

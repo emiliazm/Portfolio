@@ -2,7 +2,7 @@
 const Projects = [
   {
     class: 'project1',
-    name: 'Project One',
+    name: 'Project number One',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/proj_1.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
@@ -12,7 +12,7 @@ const Projects = [
 
   {
     class: 'project2',
-    name: 'Project Two',
+    name: 'Project number Two',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/proj_2.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
@@ -22,7 +22,7 @@ const Projects = [
 
   {
     class: 'project3',
-    name: 'Mili\'s Developer',
+    name: 'Project number Three',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/proj_3.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
@@ -32,7 +32,7 @@ const Projects = [
 
   {
     class: 'project4',
-    name: 'Project name goes here',
+    name: 'Project number Four',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/proj_4.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
@@ -42,7 +42,7 @@ const Projects = [
 
   {
     class: 'project5',
-    name: 'Project name goes here',
+    name: 'Project number Five',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/proj_5.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
@@ -52,7 +52,7 @@ const Projects = [
 
   {
     class: 'project6',
-    name: 'Project name goes here',
+    name: 'Project number Six',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/proj_6.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
