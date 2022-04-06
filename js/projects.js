@@ -1,5 +1,4 @@
 /* eslint-disable linebreak-style */
-const pops = document.querySelector('.popup');
 const Projects = [
   {
     class: 'project1',
@@ -76,18 +75,15 @@ const Projects = [
 
 const showPop = (projectNum) => {
   const Project = Projects[projectNum];
-  console.log('showPop', Project);
-
-  const popup = document.querySelector('.projects .see');
 
   let inPop = `<div class="${Project.class}">
     <div class="popup-container">
-      <img class="popup-close" src="${Project.crossimg}" alt="close cross">
+      <img class="popup-close" onclick="hidePop()" src="${Project.crossimg}" alt="close cross">
       <div class="popup-header">
         <h3 class="popup-proj1">${Project.name}</h3>
         <ul class="popup-box">`;
   Project.technologies.forEach((tech) => {
-    inDiv += `<li class="popup-work-list">${tech}</li>`;
+    inPop += `<li class="popup-work-list">${tech}</li>`;
   });
   inPop += `
         </ul>
@@ -114,10 +110,21 @@ const showPop = (projectNum) => {
   </div>
   `;
 
+  const overlay = document.querySelector('#popup-modal');
+  const pops = document.querySelector('.popup');
+  const popCont = document.querySelector('#popCont');
   const popToProjects = document.createElement('div');
+  popToProjects.setAttribute('id', 'popCont');
   popToProjects.innerHTML = inPop;
+  if (popCont) { pops.removeChild(popCont); }
   pops.appendChild(popToProjects);
+  overlay.style.display = 'block';
   pops.style.display = 'block';
+};
+
+const hidePop = () => {
+  document.querySelector('.popup').style.display = 'none';
+  document.querySelector('#popup-modal').style.display = 'none';
 };
 
 const title = document.querySelector('.projects .title');
@@ -126,7 +133,9 @@ let inDiv = '';
 Projects.forEach((Project, i) => {
   inDiv += `<div class="${Project.class}">
     <img class="imgArticle art" src="${Project.image}" alt="First Project">
-    <div class="info">
+    <div class="info`;
+  if (i === 0) inDiv += ' info11';
+  inDiv += `">
         <h3 class="proj-name project-name">${Project.name}</h3>
         <ul class="box">`;
   Project.technologies.forEach((tech) => {

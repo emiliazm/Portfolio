@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const barImage = document.querySelector('.menu');
 const crossMenu = document.querySelector('.fa-xmark');
 const mobileMenu = document.querySelector('.mobile-menu');

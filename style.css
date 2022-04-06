@@ -533,16 +533,28 @@ a {
 
 /* popup projects */
 .popup {
-  display: none;
   position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: none;
+  z-index: 2;
   min-width: 320px;
   overflow: auto;
   background-color: white;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .popup-container {
@@ -819,7 +831,7 @@ a {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 110px;
+    font-size: calc(min(7.6vw, 110px));
     transform: rotate(-90deg);
     padding: 20% 0 20% 40%;
     margin: 0%;
@@ -827,9 +839,9 @@ a {
 
   .project1 {
     grid-area: 1 / 2 / 2 / 6;
-    background-image: url(./images/proj_1.png);
+    /* background-image: url(./images/proj_1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     display: flex;
     align-items: flex-end;
   }
@@ -876,7 +888,7 @@ a {
     background-size: cover;
   }
 
-  .info11 {
+  /* .info11 {
     width: 100%;
     height: 50%;
   }
@@ -890,9 +902,9 @@ a {
   .info5,
   .info4 {
     visibility: hidden;
-  }
+  } */
 
-  .art1,
+  /* .art1,
   .art2,
   .art3,
   .art4,
@@ -903,6 +915,9 @@ a {
 
   .art1,
   .art6 {
+    display: none;
+  } */
+  .info {
     display: none;
   }
 
