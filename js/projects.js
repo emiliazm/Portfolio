@@ -1,5 +1,5 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
+/* eslint-disable no-unused-vars */
 const Projects = [
   {
     class: 'project1',
@@ -103,8 +103,8 @@ const showPop = (projectNum) => {
       <div class="popup-text">
           <p>"${Project.description}"</p>
           <div class="popup-bottoms">
-          <button class="popup-live-btn" type="button"><a href="https://emiliazm.github.io/Portfolio/">"${Project.liveVersion}"</a><img src="./images/download-blue.png" alt="download"><img src="./images/download.png" alt="download-white"></button>
-          <button class="popup-source-btn" type="button"><a href="https://github.com/emiliazm/Portfolio">"${Project.source}"</a><img src="./images/github-blue.png" alt="gitHub icon"><img src="./images/github-white.png" alt="gitHub icon white"></button>
+          <button class="popup-live-btn" type="button"><a href="https://emiliazm.github.io/Portfolio/">"${Project.liveVersion}"</a><img src="./images/download-blue.png" alt="download"></button>
+          <button class="popup-source-btn" type="button"><a href="https://github.com/emiliazm/Portfolio">"${Project.source}"</a><img src="./images/github-blue.png" alt="gitHub icon"></button>
           </div>
       </div>
     </div>
@@ -147,10 +147,15 @@ Projects.forEach((Project, i) => {
         <button class="see" type="button" onclick="showPop(${i})">See this project <img src="./images/blue-arrow.png" alt="arrow"><img src="./images/white-arrow.png" alt="white arrow"></button>
     </div>
     </div>
-    `;
+    <div class="back-center"></div>
+    <div class="back-left"></div>
+    <div class="back-bottom"></div>
+    <div class="back-right"></div>
+  `;
 });
 
 const divToProjects = document.createElement('div');
+divToProjects.setAttribute('class', 'gridP');
 divToProjects.innerHTML = inDiv;
 
 title.after(divToProjects);
