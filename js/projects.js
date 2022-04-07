@@ -229,3 +229,10 @@ function fillForm() {
   formMessage.value = formStg.fTextarea;
 }
 
+if (storageAvailable('localStorage')) {
+  fillForm();
+  formName.oninput = saveValues;
+  formEmail.oninput = saveValues;
+  formMessage.oninput = saveValues;
+}
+
