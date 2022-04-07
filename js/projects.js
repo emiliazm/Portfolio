@@ -134,8 +134,7 @@ let inDiv = '';
 Projects.forEach((Project, i) => {
   inDiv += `<div class="${Project.class}">
     <img class="imgArticle art" src="${Project.image}" alt="First Project">
-    <div class="info`;
-  if (i === 0) inDiv += ' info11';
+    <div class='info info${i + 1}';`;
   inDiv += `">
         <h3 class="proj-name project-name">${Project.name}</h3>
         <ul class="box">`;
