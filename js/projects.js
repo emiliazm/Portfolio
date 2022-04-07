@@ -217,3 +217,15 @@ function saveValues() {
   };
   localStorage.setItem('formStg', JSON.stringify(formStg));
 }
+
+function fillForm() {
+  const formStg = JSON.parse(localStorage.getItem('formStg')) || {
+    fName: '',
+    fEmail: '',
+    fTextarea: '',
+  };
+  formName.value = formStg.fName;
+  formEmail.value = formStg.fEmail;
+  formMessage.value = formStg.fTextarea;
+}
+
