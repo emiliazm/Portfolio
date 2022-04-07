@@ -191,4 +191,3 @@ form.addEventListener('submit', (event) => {
     divToContact.style.display = 'flex';
   }
 });
-
