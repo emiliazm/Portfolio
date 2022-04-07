@@ -360,6 +360,18 @@ textarea {
   margin: 12px 0 0 0;
 }
 
+.error {
+  display: none;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.error-message {
+  font-weight: bold;
+  color: #e2505c;
+  align-self: flex-start;
+}
+
 /* footer */
 footer {
   display: flex;
@@ -1114,7 +1126,7 @@ a {
   .getBut {
     width: 254px;
     height: 70px;
-    margin: 40px 144px 132px 144px;
+    margin: 40px 144px 50px 144px;
   }
 
   /* footer section */
@@ -1126,6 +1138,7 @@ a {
     height: 10vh;
     width: 100%;
     max-width: 1440px;
+    margin-top: 50px;
   }
 
   .foot-title {
