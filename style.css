@@ -839,6 +839,15 @@ a {
     margin: 0%;
   }
 
+  .project1:hover > .info,
+  .project2:hover > .info,
+  .project3:hover > .info,
+  .project4:hover > .info,
+  .project5:hover > .info,
+  .project6:hover > .info {
+    display: block;
+  }
+
   .project1 {
     grid-area: 1 / 2 / 2 / 6;
     position: relative;
