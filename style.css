@@ -148,9 +148,9 @@ p,
 
 .box {
   list-style-type: none;
-  margin: 0 6% 5%;
+  margin: 0 6% 3%;
   padding: 0;
-  width: fit-content;
+  width: 0%;
   display: flex;
 }
 
@@ -160,7 +160,7 @@ p,
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 100%;
+  font-size: 80%;
   line-height: 8.27px;
   padding: 6px 7px;
   float: left;
@@ -792,8 +792,8 @@ a {
   }
 
   h1:hover {
-    transform: rotate(360deg);
-    transition: width 2s, height 2s, transform 2s;
+    font-size: 6.5em;
+    transition: all 500ms;
   }
 
   .presentation {
@@ -894,16 +894,23 @@ a {
     background-size: cover;
   }
 
-  .info1,
-  .info2,
-  .info3,
-  .info4,
-  .info5,
-  .info6 {
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    height: 60%;
+  .info1 .proj-name {
+    font-size: 200%;
+  }
+
+  .info1 .box {
+    font-size: 100%;
+  }
+
+  .info1 .see {
+    font-size: 150%;
+  }
+
+  .info6 .box,
+  .info2 .box,
+  .info4 .box,
+  .info5 .box {
+    font-size: 60%;
   }
 
   /* popup */
@@ -957,104 +964,6 @@ a {
   .popup-proj1 {
     font-size: 300%;
   }
-
-  /* info wor1 */
-  /* .project-name1 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    width: 100%;
-    margin: 5% auto 3% 7%;
-    padding: 0;
-  }
-
-  .box11 {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    margin: 0 0 5% 7%;
-  }
-
-  .work-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    gap: 20px;
-    height: 80%;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 50%;
-  }
-
-  .see11 {
-    display: flex;
-    justify-content: center;
-    height: 51px;
-    width: 215px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 5%;
-    margin-left: 7%;
-  } */
-
-  /* info work6 */
-  /* .proj-name6-1 {
-    display: none;
-  }
-
-  .proj-name6-2 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    width: 100%;
-    margin: 5% auto 3% 5%;
-    padding: 0;
-  }
-
-  .box6 {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 1%;
-    font-size: 15%;
-    padding: 0;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    margin-right: 0;
-  }
-
-  .see6 {
-    display: flex;
-    justify-content: center;
-    height: 51px;
-    width: 212px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-
-  .list6 {
-    font-size: 10px;
-  }
-
-  .java-list {
-    display: none;
-  }
-
-  .rubyonrails {
-    padding-right: 0;
-    white-space: nowrap;
-    text-overflow: clip;
-  } */
 
   /* About section */
   .container-about {
