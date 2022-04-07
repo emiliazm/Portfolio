@@ -184,10 +184,36 @@ form.addEventListener('submit', (event) => {
   if (formEmail.value.match(/^[a-z@.0-9-_]*$/)) {
     divToContact.style.display = 'none';
     errorMsg.innerHTML = '';
-    localStorage.clear();
   } else {
     event.preventDefault();
     formEmail.style.color = '#e2505c';
     divToContact.style.display = 'flex';
   }
 });
+
+// Storage
+
+function storageAvailable(type) {
+  let storage;
+  const x = '__storage_test__';
+
+  try {
+    storage = window[type];
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return e instanceof DOMException && (
+      e.code === 22 || e.code === 1014 || e.name === 'QuotaExceededError' || e.name === 'NS_ERROR_DOM_QUOTA_REACHED') && (storage && storage.length !== 0
+    );
+  }
+}
+
+function saveValues() {
+  const formStg = {
+    fName: formName.value,
+    fEmail: formEmail.value,
+    fTextarea: formMessage.value,
+  };
+  localStorage.setItem('formStg', JSON.stringify(formStg));
+}
