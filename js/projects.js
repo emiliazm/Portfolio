@@ -192,13 +192,11 @@ form.addEventListener('submit', (event) => {
 });
 
 // Storage
-
 function storageAvailable(type) {
   let storage;
-  const x = '__storage_test__';
-
   try {
     storage = window[type];
+    const x = '__storage_test__';
     storage.setItem(x, x);
     storage.removeItem(x);
     return true;
@@ -235,4 +233,3 @@ if (storageAvailable('localStorage')) {
   formEmail.oninput = saveValues;
   formMessage.oninput = saveValues;
 }
-
