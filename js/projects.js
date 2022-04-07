@@ -179,3 +179,16 @@ const textnode = document.createTextNode('** Email does not seem to comply with 
 errorMsg.appendChild(textnode);
 
 divToContact.appendChild(errorMsg);
+
+form.addEventListener('submit', (event) => {
+  if (formEmail.value.match(/^[a-z@.0-9-_]*$/)) {
+    divToContact.style.display = 'none';
+    errorMsg.innerHTML = '';
+    localStorage.clear();
+  } else {
+    event.preventDefault();
+    formEmail.style.color = '#e2505c';
+    divToContact.style.display = 'flex';
+  }
+});
+
