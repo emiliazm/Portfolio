@@ -10,6 +10,7 @@ If you like what you see and have a project you need coded, don’t hesitate and
 ## Built With
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 [Live Demo Linnk](https://emiliazm.github.io/Portfolio)
