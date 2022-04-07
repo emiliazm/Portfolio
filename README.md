@@ -36,7 +36,7 @@ The objectives of this project is:
 - Twitter: [@emilia_zm](https://twitter.com/emilia_zm)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emilia-zambrano-montero-aa30a611b/)
 
-## Colaborator
+## Collaborator
 👤 **Ntihinduka Alpha**
 - GitHub: [@githubhandle](https://github.com/AlphaNtihinduka)
 - Twitter: [@twitterhandle](https://twitter.com/AlphaNtihinduka)
