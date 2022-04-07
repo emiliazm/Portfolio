@@ -907,6 +907,19 @@ a {
     font-size: 200%;
   }
 
+  .info1,
+  .info2,
+  .info3,
+  .info4,
+  .info5,
+  .info6 {
+    display: none;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 60%;
+  }
+
   .info1 .box {
     font-size: 100%;
   }
