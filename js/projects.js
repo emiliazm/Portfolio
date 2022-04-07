@@ -162,10 +162,10 @@ title.after(divToProjects);
 // contact validation.
 
 const getBut = document.querySelector('.form .getBut');
-const form = document.querySelector('.contact-form');
-const formName = document.querySelector('.form-name');
-const formEmail = document.querySelector('.form-email');
-const formMessage = document.querySelector('.form-textarea');
+const form = document.querySelector('.form');
+const formName = document.querySelector('.input-name');
+const formEmail = document.querySelector('.input-email');
+const formMessage = document.querySelector('.input-textarea');
 
 const inForm = '';
 const divToContact = document.createElement('div');
@@ -175,20 +175,7 @@ getBut.after(divToContact);
 
 const errorMsg = document.createElement('p');
 errorMsg.setAttribute('class', 'error-message');
-const textnode = document.createTextNode('Email should be in lower case');
+const textnode = document.createTextNode('** Email does not seem to comply with the format.  Please doble-check it is in lower case.');
 errorMsg.appendChild(textnode);
 
 divToContact.appendChild(errorMsg);
-
-form.addEventListener('submit', (event) => {
-  if (formEmail.value.match(/^[a-z@.0-9-_]*$/)) {
-    divToContact.style.display = 'none';
-    errorMsg.innerHTML = '';
-    formEmail.style.border = 'green 1px solid ';
-    localStorage.clear();
-  } else {
-    event.preventDefault();
-    formEmail.style.border = '#e2505c 3px solid';
-    divToContact.style.display = 'flex';
-  }
-});

@@ -361,9 +361,8 @@ textarea {
 }
 
 .error {
-  display: flex;
+  display: none;
   width: 100%;
-  background-color: #fff;
   border-radius: 0.5rem;
   margin-bottom: 5px;
 }
@@ -1128,7 +1127,7 @@ a {
   .getBut {
     width: 254px;
     height: 70px;
-    margin: 40px 144px 132px 144px;
+    margin: 40px 144px 50px 144px;
   }
 
   /* footer section */
@@ -1140,6 +1139,7 @@ a {
     height: 10vh;
     width: 100%;
     max-width: 1440px;
+    margin-top: 50px;
   }
 
   .foot-title {
