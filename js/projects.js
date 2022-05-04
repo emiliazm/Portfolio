@@ -3,9 +3,9 @@
 const Projects = [
   {
     class: 'project1',
-    name: 'Project number One',
+    name: 'Outdoor Concert',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+      'This is a project that simulates a Concert website where users can check all of its information. Built with HTML, CSS, and project section is created dynamically with JavaScript.',
     image: './images/proj_1.png',
     technologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScripts'],
     liveVersion: 'See Live',
@@ -103,7 +103,7 @@ const showPop = (projectNum) => {
       <div class="popup-text">
           <p>"${Project.description}"</p>
           <div class="popup-bottoms">
-          <button class="popup-live-btn" type="button"><a href="https://emiliazm.github.io/Portfolio/">"${Project.liveVersion}"</a><img src="./images/download-blue.png" alt="download"></button>
+          <button class="popup-live-btn" type="button"><a href="https://emiliazm.github.io/Concert/">"${Project.liveVersion}"</a><img src="./images/download-blue.png" alt="download"></button>
           <button class="popup-source-btn" type="button"><a href="https://github.com/emiliazm/Portfolio">"${Project.source}"</a><img src="./images/github-blue.png" alt="gitHub icon"></button>
           </div>
       </div>
